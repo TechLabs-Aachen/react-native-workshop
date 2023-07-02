@@ -1,4 +1,4 @@
-# TypeScript Example
+# React Native Workshop (Typescript)
 
 <p>
   <!-- iOS -->
