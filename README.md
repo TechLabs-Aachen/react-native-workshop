@@ -9,28 +9,28 @@
   <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
 </p>
 
-```sh
-npx create-react-native-app -t with-typescript
-```
+## 🚀 React Native Workshop
 
-TypeScript is a superset of JavaScript which gives you static types and powerful tooling in Visual Studio Code including autocompletion and useful inline warnings for type errors.
+This is a small example project for the react native workshop.
 
-## 🚀 How to use
+#### Starting the project
 
-#### Creating a new project
+Clone this project by entering `git clone
+https://github.com/TechLabsAC-WebDevelopers/react-native-workshop.git` in your
+project folder! It will copy the repository into a new folder
+`react-native-workshop`.
 
-- Install the CLI: `npm i -g expo-cli`
-- Create a project: `npx create-react-native-app -t with-typescript`
-- `cd` into the project
+Change directory (`cd`) to the new folder (`react-native-workshop`) and install
+dependencies using `npm i`.
 
-### Adding TypeScript to existing projects
+From here, you can start your project with either `npm run web` (web app), `npm
+run android` (android app, requires emulator), `npm run ios` (ios app, requires
+emulator), `npm run start` (expo start) or just `npx expo start` (for expo go
+app).
 
-- Create a blank TypeScript config: `touch tsconfig.json`
-- Run `yarn start` or `npm run start` to automatically configure TypeScript
-- Rename files to TypeScript, `.tsx` for React components and `.ts` for plain typescript files
+>Note: Try to test out the project on your mobile phones using the expo go app.
 
-> 💡 You can disable the TypeScript setup in Expo CLI with the environment variable `EXPO_NO_TYPESCRIPT_SETUP=1 expo start`
+#### Project structure
 
-## 📝 Notes
-
-- [Expo TypeScript guide](https://docs.expo.dev/versions/latest/guides/typescript/)
+The entrypoint for the App is `App.tsx`. Components should be placed in the 
+`components/` folder.
